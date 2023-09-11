@@ -1,0 +1,576 @@
+/*--------------------tablet/------------------*/
+@media (max-width: 992px) {
+
+    /*---------------header------------------*/
+    header img {
+        width: 100px;
+    }
+
+    header .tex-nav {
+        font-size: 1rem;
+    }
+
+    /*---------------------nav------------------*/
+    main h1 {
+        font-size: 1.3rem;
+        height: 5%;
+    }
+
+    .search-input {
+        margin-top: 4%;
+        height: 35px;
+
+    }
+
+    main .map-icon {
+        height: 35px;
+    }
+
+    main .map-icon img {
+        width: 25%;
+        margin-top: 20%;
+        margin-left: 35%;
+    }
+
+    main input {
+        width: 20%;
+        font-size: 1rem;
+    }
+
+    main .search-button {
+        height: 35px;
+        font-size: .8rem;
+        width: 70px;
+    }
+
+    .map-icon {
+        height: 5px;
+    }
+
+    /*---------------filters--------------*/
+
+    .filter-title {
+        font-size: 1rem;
+    }
+
+    .icon-money {
+        width: 32px;
+        height: 32px;
+        background-color: #DEEBFF;
+        box-shadow: -1px 0px 0px #DEEBFF;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 5%;
+    }
+
+
+
+    .tit-fil1 {
+        font-size: .7rem; 
+        width: 18%;
+        height: 30px;
+        margin-top: 2%;
+    }
+
+    .low-c {
+        width: 15%;
+    }
+
+    .family-f {
+        width: 19%;
+    }
+
+    .romantic {
+        width: 14%;
+    }
+
+    .fil-btn {
+        font-size: .8rem;
+        margin-top: 6%;
+    }
+
+    .icon-money i {
+        margin-top: 10px;
+    }
+
+
+    /*---------------Acommodations and most popular cards---------------*/
+
+    .cards-accommodations-popular {
+        display: block;
+        margin: auto 5%;
+    }
+
+    .accommodations {
+        width: 90%;
+
+    }
+
+    .img-card{
+        height: 120px;
+    }
+    .card-info{
+        padding: 5px;
+        width: 30%;
+    }
+
+    .section-card-text h3 {
+        font-size: 1rem;
+    }
+
+    .section-card-text p {
+        font-size: .8rem;
+    }
+
+    /*---------------most popular----------------*/
+    .most-popular {
+        width: 89%;
+        justify-content: space-between;
+    }
+
+    .most-popular h3{
+        font-size: 1rem;
+    }
+
+    .popular-card-text{
+        font-size: 1.5vw;
+    }
+    .card-individual{
+    height: 140px;        
+    }
+    .star i {
+        font-size: 1.3rem;
+    }
+
+
+     .activities-cards {
+        height: 300px;
+    }
+
+    .activities-card-two-cards {
+        height: 300px;
+    } 
+
+    .card-individual{
+        width: 80%;
+        padding: 6px;
+        margin-left: 5%;
+        
+    }
+
+    .pop-img {
+        height: 140px;
+    }
+
+    .pop-img img{
+        height: 100%;
+    }
+
+    /*---------------Activities in Marseille Cards----*/
+    .activities{
+        margin-top: 8%;
+    }
+
+    .activities-card-two-cards h4{
+        font-size: .7rem;
+    }
+
+    .activities-card-one h4{
+        font-size: .7rem;
+    }
+
+    .activities h1{
+        font-size: 1.3rem;
+    }
+}
+
+/*---------------------mobile-------------------------------*/
+
+
+@media (max-width: 767px) {
+    header {
+        display: block;
+        margin: 0%;
+        padding: 0%;
+
+    }
+
+    header img {
+        width: 100px;
+        margin-left: 45%;
+        margin-bottom: 5%;
+        margin-top: 0%;
+    }
+
+    header .tex-nav {
+        display: none;
+
+    }
+
+    header .mobile-text-nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    header .mobile-item {
+        display: flex;
+        width: 50%;
+        color: black;
+        font-size: 1.2rem;
+        border-bottom: 3px #F2F2F2 solid;
+        padding: 4%;
+        margin: 0%;
+        padding-left: 9%;
+
+    }
+
+    header .mobile-item1 {
+        width: 50%;
+        color: black;
+        text-align: end;
+        font-size: 1.2rem;
+        border-bottom: 3px #F2F2F2 solid;
+        padding: 4%;
+        margin: 0%;
+        padding-right: 9%;
+    }
+
+    header .mobile-item:hover {
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    header .mobile-item1:hover {
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    /*----------------main-----------*/
+
+    main {
+        margin-left: 0%;
+
+    }
+
+    main .find-place {
+        margin-left: 6%;
+    }
+
+    main .section-filters {
+        margin-left: 6%;
+    }
+
+    main .text-1 {
+        margin-left: 6%;
+    }
+
+    main h1 {
+        font-weight: bolder;
+        font-size: 1.5rem;
+        font-style: normal;
+    }
+
+    main .search-button {
+        display: none;
+    }
+
+    main .map-icon {
+        height: 50px;
+
+    }
+
+    main .map-icon img {
+        width: 18px;
+        margin-top: 30%;
+    }
+
+    main input {
+        width: 60%;
+        height: 45px;
+        font-size: 1rem;
+    }
+
+    main .search-button-mobile {
+        display: block;
+        display: block;
+        background-color: #0065FC;
+        border: #0065FC;
+        border-radius: 12px;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+    }
+
+    main .search-button-mobile img {
+        width: 15px;
+        margin-top: 2%;
+    }
+
+    /*-----------------Filters----------------*/
+
+    .section-filters {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .f0 {
+        grid-column: 1/4;
+    }
+
+    .f2 {
+        grid-row: 3;
+    }
+
+    .f4 {
+        grid-row: 4;
+    }
+
+    .tit-fil{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+    }
+    .tit-fil1 {
+        margin-bottom: 5%;
+        height: 40px
+    }
+
+    .low-c {
+        width: 80%;
+        font-size: 1.1rem;
+
+    }
+
+    .romantic {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .family-f {
+        width: 100%;
+        font-size: 1.1rem;
+
+    }
+
+    .pets-a {
+        width: 40vw;
+        font-size: 1.1rem;
+    }
+
+    .fil-btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: .8rem;
+
+    }
+
+
+    .icon-money {
+        width: 42px;
+        height: 42px;
+        background-color: #DEEBFF;
+        box-shadow: -1px 0px 0px #DEEBFF;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 5%;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .info-mobile {
+        display: block;
+        margin-top: 5%;
+    }
+
+    .info-mobile img {
+        width: 18px;
+    }
+
+    .info-txto-mobile {
+        font-size: .9rem;
+        margin-left: 1%;
+        text-align: start;
+        justify-content: flex-start;
+
+    }
+
+    .city-mobile {
+        display: flex;
+        margin-left: 5%;
+        font-size: 0.9rem;
+    }
+
+    /*-------------------cards------------------*/
+
+    .cards-accommodations-popular {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+
+    .image-card img {
+        max-width: 40vw;
+    }
+
+    .star i {
+        font-size: 1rem;
+        margin-top: 8%;
+    }
+
+    .most-popular {
+        width: 100vw;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 0px;
+        border-radius: 0px;
+        background-color: #f2f2f2;
+        padding: 0px;
+        margin-right: 0px;
+        margin-top: 20px;
+        padding-bottom: 4%;
+    }
+
+    .star {
+        margin: 0 8%;
+    }
+
+    .star i {
+        padding-bottom: 10%;
+
+    }
+
+    .card-stars i {
+        font-size: 1rem;
+    }
+
+    
+
+    .card-individual {
+        margin-bottom: 5%;
+        padding: 0px;
+        height: 180px;
+        margin-left: 0px;
+    }
+
+    .popular-card-text {
+        font-size: .8rem;
+        justify-content: space-between;
+        line-height: 160%;
+    }
+
+    .pop-img img {
+        height: 170px;
+        padding: 3%;
+        border-radius: 14px 0px 0px 14px;
+    }
+
+    .pop-img {
+        width: 170px;
+    }
+
+    .accommodations {
+        width: 100vw;
+        border-radius: 0px;
+        background-color: white;
+        margin-left: 0px;
+        padding: 0px;
+        margin-right: 0px;
+
+    }
+
+    .accommodations .acc-marseille {
+        margin-left: 5%;
+        margin-right: 0px;
+    }
+
+    .section-card-text {
+        font-size: 1rem;
+        padding-bottom: 3%;
+        margin-left: 3%;
+        
+    }
+
+    .cards-acc {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        margin-right: 0%;
+        padding: 0px;
+        margin-left: 0px;
+
+    }
+
+    .card-info {
+        width: 80vw;
+        margin: 0 10%;
+        padding: 0px;
+        margin-bottom: 8%;
+        box-shadow: 0px 5px 5px rgb(225, 222, 222)
+    }
+
+    .accommodations h1 {
+        margin-left: 8%;
+        margin-right: 0px;
+    }
+
+    .activities h1 {
+        margin-left: 8%;
+        margin-right: 0%;
+    }
+
+    .card-individual{
+        width: 100%;
+    }
+
+    /*activities cards */
+
+    .activities-cards {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        margin: 0 10%;
+        height: 100%;
+
+    }
+
+  
+    
+    .activities-card-one {
+        width: 100%;
+        height: 80%;
+    }
+
+    .activities-card-two-cards {
+        width: 100%;
+        height: 80%;
+    }
+
+    .activities-mobile {
+        height: 200px;
+        margin-bottom: 5%;
+    }
+
+    .activities-mobile img {
+        height: 70%;
+    }
+
+    /*--------------Footer----------*/
+
+    footer {
+        margin-top: 5%;
+    }
+
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+}
